@@ -1,4 +1,4 @@
-FROM ubuntu:xenial-20210416
+FROM ubuntu:rolling
 
 LABEL maintainer="William Irons <wdirons@us.ibm.com>"
 
