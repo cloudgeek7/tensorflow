@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ==============================================================================
-FROM ubuntu:xenial-20210416
+FROM ubuntu:rolling
 
 LABEL maintainer="Shanqing Cai <cais@google.com>"
 
