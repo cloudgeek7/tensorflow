@@ -7,7 +7,7 @@
 #  --tag "gcr.io/tensorflow-testing/nosla-rocm-ubuntu18.04-manylinux2010-multipython" .
 # $ docker push gcr.io/tensorflow-testing/nosla-rocm-ubuntu18.04-manylinux2010-multipython
 
-FROM ubuntu:rolling
+FROM ubuntu:22.10
 COPY --from=local-toolchain-ubuntu18.04-manylinux2010 /dt7 /dt7
 
 ARG DEBIAN_FRONTEND=noninteractive
