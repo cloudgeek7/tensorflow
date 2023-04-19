@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ==============================================================================
-FROM ubuntu:rolling
+FROM ubuntu:22.10
 
 LABEL maintainer="Shanqing Cai <cais@google.com>"
 
