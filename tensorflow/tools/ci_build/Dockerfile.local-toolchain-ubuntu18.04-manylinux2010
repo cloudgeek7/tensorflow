@@ -7,7 +7,7 @@
 # $ docker build -f Dockerfile.local-toolchain-ubuntu18.04-manylinux2010 \
 #  --tag "local-toolchain-ubuntu18.04-manylinux2010" .
 
-FROM ubuntu:rolling as local-toolchain-ubuntu18.04-manylinux2010
+FROM ubuntu:23.04 as local-toolchain-ubuntu18.04-manylinux2010
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y \
