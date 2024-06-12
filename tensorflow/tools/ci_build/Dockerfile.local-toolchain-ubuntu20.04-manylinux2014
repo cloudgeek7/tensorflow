@@ -10,7 +10,7 @@
 # $ docker build -f Dockerfile.local-toolchain-ubuntu20.04-manylinux2014 \
 #  --tag "local-toolchain-ubuntu20.04-manylinux2014" .
 
-FROM ubuntu:rolling as local-toolchain-ubuntu20.04-manylinux2014
+FROM ubuntu:22.10 as local-toolchain-ubuntu20.04-manylinux2014
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y \
